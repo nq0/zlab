@@ -1,0 +1,141 @@
+body {
+    height: 100vh;
+    background: url(img.jpg)no-repeat fixed;
+    background-size: cover;
+}
+a{
+    color: #f0d07f;
+    text-decoration: none;
+}
+a:link{
+    color: #f0d07f;
+}
+a:visited{
+    color: #5a8174;
+    text-decoration: underline;
+}
+a:hover{
+    color: #c799ab;
+    text-decoration: underline;
+}
+
+header {
+    padding: 5px;
+    background-color: #FFFFFF;
+}
+.hcol{
+    color: #bd5756;
+}
+.text {
+    position: relative;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.97);
+    color: #888;
+    width: 98%;
+    margin: auto;
+    margin-top: 0.5em;
+    border-radius: 5px;
+    padding: 2em;
+}
+
+h1 {
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+}
+
+strong {
+    font-size: 2rem;
+}
+
+.home {
+    margin-top: 1em;
+}
+
+.home h2 {
+    margin: 1em;
+    color: #c18786;
+}
+
+.subt {
+    width: 70%;
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.news {
+    margin-top: 0.5em;
+}
+
+.newscon {
+    padding-top: -0.5em;
+    border: solid 2px #c18786;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.97);
+}
+
+.newscon dl {
+    width: 99%;
+    height: 10em;
+    margin: 1em 0 0;
+    padding: 0.5em;
+    font-size: 100%;
+    overflow: auto;
+}
+
+.newscon dt {
+    clear: left;
+    float: left;
+    width: 5.5em;
+    font-weight: bold;
+    color: #505050;
+}
+
+.news dd {
+    color: #505050;
+    margin-left: 5.5em;
+    margin-bottom: 0.8em;
+}
+
+.cnt {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.cnt li {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.cnt2 {
+    width: 80%;
+    margin: auto;
+}
+
+footer {
+    clear: both;
+    background-color: #444;
+    bottom: 0px;
+    padding: 15px 5px 0 5px;
+    ;
+    color: #fff;
+    font-size: 12px;
+}
+
+footer .navbar-nav li a {
+    text-align: center;
+    color: #fff;
+    padding-left: 0.5em;
+    text-decoration: underline;
+}
+
+footer .navbar-nav li a:hover {
+    color: #dcdcdc;
+}
+
+.copyright {
+    text-align: left;
+    font-size: 90%
+}
