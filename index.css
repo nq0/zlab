@@ -69,7 +69,7 @@ strong {
 }
 
 .newscon {
-    padding-top: -0.5em;
+    margin-top: 0.5em;
     border: solid 2px #c18786;
     padding: 1em;
     border-radius: 10px;
