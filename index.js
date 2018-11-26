@@ -21,9 +21,9 @@ $(function() {
             var val = $(this).attr('id');
             $.ajax({
                 url: val +'.php',
-                dataType: 'json',
+                dataType: 'html',
                 success: function (data) {
-                    $('#contents').php(data);
+                    $('#contents').html(data);
                 },
                 error: function (data) {
                     alert('error');
