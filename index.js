@@ -15,3 +15,20 @@ $(function() {
         }
     );
 });
+$(function() {
+    $('.ajax-php').click(
+        function () {
+            var val = $(this).attr('id');
+            $.ajax({
+                url: val +'.php',
+                dataType: 'json',
+                success: function (data) {
+                    $('#contents').php(data);
+                },
+                error: function (data) {
+                    alert('error');
+                }
+            });
+        }
+    );
+});
